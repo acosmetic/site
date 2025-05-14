@@ -1,3 +1,4 @@
+HEAD
 # Site Web Nivea Inspired
 
 Un site web moderne inspiré de Nivea, construit avec React et Tailwind CSS.
@@ -93,3 +94,6 @@ Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à
 ## Licence
 
 Ce projet est sous licence MIT. 
+
+# Site_vitrine
+ 01a213bf282a36ce9c34889c5f03f4befa6addeb
