@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center">
             <img
-              src="/logo/acos.png"
+              src="/a-cosmetic/logo/acos1.png"
               alt="Acos Logo"
               className="h-12 w-auto hidden md:block"
             />

@@ -8,11 +8,11 @@ const Carousel = () => {
   const slides = [
     {
       id: 1,
-      image: '/Fond/visage.svg',
+      image: '/a-cosmetic/Fond/visage.svg'
     },
     {
       id: 2,
-      image: '/Fond/corps.svg',
+      image: '/a-cosmetic/Fond/corps.svg'
     }
   ]
 
@@ -56,20 +56,10 @@ const Carousel = () => {
             <div className="absolute inset-0">
               <img
                 src={slides[currentIndex].image}
-                alt={slides[currentIndex].title}
+                alt="Slide"
                 className="w-full h-full object-cover object-center"
                 style={{ objectPosition: 'center center' }}
               />
-            </div>
-            <div className="absolute inset-0 flex items-center justify-center text-white z-10">
-              <div className="text-center max-w-2xl px-4">
-                <h2 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-2 sm:mb-4">
-                  {slides[currentIndex].title}
-                </h2>
-                <p className="text-sm sm:text-xl mb-4 sm:mb-8">
-                  {slides[currentIndex].description}
-                </p>
-              </div>
             </div>
           </motion.div>
         </AnimatePresence>

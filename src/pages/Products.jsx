@@ -1,8 +1,16 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 
 const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState('all')
+
+  useEffect(() => {
+    // Get the category from the URL hash
+    const hash = window.location.hash.slice(1) // Remove the # character
+    if (hash && ['face', 'body'].includes(hash)) {
+      setSelectedCategory(hash)
+    }
+  }, [])
   const [showPhoneNumbers, setShowPhoneNumbers] = useState(false)
   const [isModalOpen, setIsModalOpen] = useState(false); // State for image modal visibility
   const [selectedImage, setSelectedImage] = useState(null); // State for selected image URL
@@ -29,75 +37,75 @@ const Products = () => {
     {
       id: 1,
       name: 'Crème Visage',
-      category: 'face',
-      description: 'Formule exclusive à double action antiseptique',
+      description: 'Hydratation intense pour une peau éclatante',
       price: '2.500 FCFA',
-      image: '/products/visage/visage1.png',
+      image: '/a-cosmetic/products/visage/visage1.png',
+      category: 'face'
     },
     {
       id: 2,
       name: 'Lait de beauté',
-      category: 'face',
-      description: 'Pour la bonne santé de la peau',
+      description: 'Nettoyage doux et hydratation',
       price: '3.000 FCFA',
-      image: '/products/visage/visage2.png',
+      image: '/a-cosmetic/products/visage/visage2.png',
+      category: 'face'
     },
     {
       id: 3,
       name: 'Gel douche traitant',
-      category: 'face',
-      description: 'Hydratant, antitache, antiride et antivergétures',
+      description: 'Pour une peau saine et douce',
       price: '1.500 FCFA',
-      image: '/products/visage/visage3.png',
+      image: '/a-cosmetic/products/visage/visage3.png',
+      category: 'face'
     },
     {
       id: 4,
       name: 'Gel douche mentholé',
-      category: 'body',
-      description: 'Relaxant, rafraîchissant et revigorisant',
+      description: 'Sensation de fraîcheur intense',
       price: '3.000 FCFA',
-      image: '/products/corps/corps1.png',
+      image: '/a-cosmetic/products/corps/corps1.png',
+      category: 'body'
     },
     {
       id: 5,
       name: 'Gel douche médicalé',
-      category: 'body',
-      description: 'Lutte contre les gales, boutons, dartres teignes et boutons de rasage',
+      description: 'Soin apaisant pour la peau',
       price: '1.500 FCFA',
-      image: '/products/corps/corps2.png',
+      image: '/a-cosmetic/products/corps/corps2.png',
+      category: 'body'
     },
     {
       id: 6,
       name: 'Savon de soins',
-      category: 'body',
-      description: 'Hydratant, embelissant, guérison et rajeunissant',
+      description: 'Nettoyage en douceur',
       price: '1.500 FCFA',
-      image: '/products/corps/corps3.png',
+      image: '/a-cosmetic/products/corps/corps3.png',
+      category: 'body'
     },
     {
       id: 7,
       name: 'Gel Douche Gommant',
-      category: 'face',
-      description: 'Soin clarifiant aux extraits de carotte',
+      description: 'Exfoliation douce et efficace',
       price: '3.000 FCFA',
-      image: 'Fond/geldouchegommant.png',
+      image: '/a-cosmetic/Fond/geldouchegommant.png',
+      category: 'body'
     },
     {
       id: 8,
       name: 'Serum de soins',
-      category: 'face',
-      description: 'Pour la bonne santé de la peau',
+      description: 'Concentré de soins actifs',
       price: '2.500 FCFA',
-      image: '/products/visage/visage4.png',
+      image: '/a-cosmetic/products/visage/visage4.png',
+      category: 'face'
     },
     {
       id: 9,
       name: 'Gel Ocean',
-      category: 'body',
-      description: 'Gel hygienne intime',
+      description: 'Sensation océanique rafraîchissante',
       price: '3.000 FCFA',
-      image: '/products/corps/#',
-    },
+      image: '/a-cosmetic/products/corps/#.png',
+      category: 'body'
+    }
   ]
 
   const filteredProducts = selectedCategory === 'all'
@@ -185,7 +193,7 @@ const Products = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  0707511564
+                  0507064019
                 </a>
                 <a 
                   href="tel:0747796326" 
@@ -194,7 +202,7 @@ const Products = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  0747796326
+                  0704363935
                 </a>
               </div>
               <button

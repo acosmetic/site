@@ -15,26 +15,27 @@ const Home = () => {
   const closeModal = () => {
     setSelectedImage(null);
     setIsModalOpen(false);
-  };
-
-  const products = [
+  };    const products = [
     {
       id: 1,
       name: 'Crème de Visage',
       description: 'Formule exclusive à double action antiseptique',
-      image: '/products/visage/visage1.png',
+      image: '/a-cosmetic/products/visage/visage1.png',
+      category: 'face'
     },
     {
       id: 2,
       name: 'Gel Douche Gommant',
       description: 'Soin clarifiant aux extraits de carotte',
-      image: 'Fond/geldouchegommant.png',
+      image: '/a-cosmetic/Fond/geldouchegommant.png',
+      category: 'body'
     },
     {
       id: 3,
       name: 'Lait de beauté',
       description: 'Pour la bonne santé de la peau',
-      image: '/products/visage/visage2.png',
+      image: '/a-cosmetic/products/visage/visage2.png',
+      category: 'face'
     },
   ]
 
@@ -77,7 +78,7 @@ const Home = () => {
                   <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
                   <p className="text-gray-600 mb-4">{product.description}</p>
                   <Link
-                    to={`/products/${product.id}`}
+                    to={`/products#${product.category}`}
                     className="text-nivea-blue hover:text-nivea-light-blue"
                   >
                     En savoir plus →
@@ -122,7 +123,7 @@ const Home = () => {
               className="relative"
             >
               <img
-                src="/logo/acos.png"
+                src="/a-cosmetic/logo/acos1.png"
                 alt="À propos"
                 className="rounded-lg shadow-xl"
               />

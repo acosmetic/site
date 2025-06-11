@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   const footerLinks = [
@@ -32,19 +32,19 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Social */}
           <div className="space-y-4">
-            <img src="/logo/acos.png" alt="A-COSMETIC Logo" className="h-12 w-auto" />
+            <img src="/a-cosmetic/logo/acos1.png" alt="A-COSMETIC Logo" className="h-12 w-auto" />
             <p className="text-gray-300">
               Des soins de la peau de qualité depuis plus de 5 ans.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a href="https://www.facebook.com/people/A-Cosmetic/61576482712370/" className="text-gray-300 hover:text-white">
                 <FaFacebook size={24} />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a href="https://www.instagram.com/acosmetic_sarl/" className="text-gray-300 hover:text-white">
                 <FaInstagram size={24} />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white">
-                <FaTwitter size={24} />
+              <a href="https://www.linkedin.com/company/a-cosmetic/" className="text-gray-300 hover:text-white">
+                <FaLinkedin size={24} />
               </a>
             </div>
           </div>
