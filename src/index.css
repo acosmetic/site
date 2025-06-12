@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    @apply bg-white text-nivea-dark dark:bg-nivea-dark dark:text-white;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-md font-medium transition-all duration-300 text-base;
+  }
+  
+  .btn-primary {
+    @apply bg-nivea-blue text-white hover:bg-nivea-light-blue shadow-sm hover:shadow-md;
+  }
+  
+  .btn-secondary {
+    @apply bg-nivea-gray text-nivea-dark hover:bg-gray-200 border border-gray-300;
+  }
+
+  .btn-outline {
+    @apply border-2 border-nivea-blue text-nivea-blue hover:bg-nivea-blue hover:text-white;
+  }
+
+  .section {
+    @apply py-16 md:py-24 overflow-hidden;
+  }
+
+  .nav-link {
+    @apply text-nivea-dark hover:text-nivea-blue transition-colors duration-300 text-base font-medium;
+  }
+
+  .nav-link.active {
+    @apply text-nivea-blue;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300;
+  }
+
+  .card-body {
+    @apply p-6;
+  }
+
+  .input {
+    @apply w-full px-4 py-3 rounded-md border border-gray-300 focus:ring-2 focus:ring-nivea-blue focus:ring-offset-2 focus:outline-none shadow-sm text-base;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-nivea-dark mb-2;
+  }
+
+  .prose {
+    @apply text-gray-600 leading-relaxed space-y-6 max-w-none;
+  }
+
+  .prose h1 {
+    @apply text-4xl font-bold text-nivea-dark mb-6;
+  }
+
+  .prose h2 {
+    @apply text-2xl font-semibold text-nivea-dark mt-8 mb-4;
+  }
+
+  .prose h3 {
+    @apply text-xl font-medium text-nivea-dark mt-6 mb-3;
+  }
+
+  .prose p {
+    @apply mb-4 text-base;
+  }
+
+  .prose ul {
+    @apply list-disc pl-6 mb-4 space-y-2;
+  }
+
+  .prose a {
+    @apply text-nivea-blue hover:text-nivea-light-blue underline;
+  }
+
+  .bg-gradient {
+    @apply bg-gradient-to-br from-nivea-blue to-nivea-light-blue;
+  }
+
+  .heading {
+    @apply text-3xl md:text-4xl font-bold text-nivea-dark mb-6;
+  }
+
+  .subheading {
+    @apply text-xl text-gray-600 mb-8 font-normal leading-relaxed;
+  }
+}
