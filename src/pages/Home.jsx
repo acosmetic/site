@@ -20,33 +20,21 @@ const Home = () => {
       id: 1,
       name: 'Crème de Visage',
       description: 'Formule exclusive à double action antiseptique',
-<<<<<<< HEAD
-      image: '/a-cosmetic/products/visage/visage1.png',
-=======
-      image: './products/visage/visage1.png',
->>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
+      image: '/products/visage/visage1.png',
       category: 'face'
     },
     {
       id: 2,
       name: 'Gel Douche Gommant',
       description: 'Soin clarifiant aux extraits de carotte',
-<<<<<<< HEAD
-      image: '/a-cosmetic/Fond/geldouchegommant.png',
-=======
-      image: './Fond/geldouchegommant.png',
->>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
+      image: '/Fond/geldouchegommant.png',
       category: 'body'
     },
     {
       id: 3,
       name: 'Lait de beauté',
       description: 'Pour la bonne santé de la peau',
-<<<<<<< HEAD
-      image: '/a-cosmetic/products/visage/visage2.png',
-=======
-      image: './products/visage/visage2.png',
->>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
+      image: '/products/visage/visage2.png',
       category: 'face'
     },
   ]
@@ -135,11 +123,7 @@ const Home = () => {
               className="relative"
             >
               <img
-<<<<<<< HEAD
-                src="/a-cosmetic/logo/acos1.png"
-=======
                 src="./logo/acos.png"
->>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
                 alt="À propos"
                 className="rounded-lg shadow-xl"
               />

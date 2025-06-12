@@ -39,11 +39,7 @@ const Products = () => {
       name: 'Crème Visage',
       description: 'Hydratation intense pour une peau éclatante',
       price: '2.500 FCFA',
-<<<<<<< HEAD
-      image: '/a-cosmetic/products/visage/visage1.png',
-=======
-      image: './products/visage/visage1.png',
->>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
+      image: '/products/visage/visage1.png',
       category: 'face'
     },
     {
@@ -51,11 +47,7 @@ const Products = () => {
       name: 'Lait de beauté',
       description: 'Nettoyage doux et hydratation',
       price: '3.000 FCFA',
-<<<<<<< HEAD
-      image: '/a-cosmetic/products/visage/visage2.png',
-=======
-      image: './products/visage/visage2.png',
->>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
+      image: '/products/visage/visage2.png',
       category: 'face'
     },
     {
@@ -63,11 +55,7 @@ const Products = () => {
       name: 'Gel douche traitant',
       description: 'Pour une peau saine et douce',
       price: '1.500 FCFA',
-<<<<<<< HEAD
-      image: '/a-cosmetic/products/visage/visage3.png',
-=======
-      image: './products/visage/visage3.png',
->>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
+      image: '/products/visage/visage3.png',
       category: 'face'
     },
     {
@@ -75,11 +63,7 @@ const Products = () => {
       name: 'Gel douche mentholé',
       description: 'Sensation de fraîcheur intense',
       price: '3.000 FCFA',
-<<<<<<< HEAD
-      image: '/a-cosmetic/products/corps/corps1.png',
-=======
-      image: './products/corps/corps1.png',
->>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
+      image: '/products/corps/corps1.png',
       category: 'body'
     },
     {
@@ -87,11 +71,7 @@ const Products = () => {
       name: 'Gel douche médicalé',
       description: 'Soin apaisant pour la peau',
       price: '1.500 FCFA',
-<<<<<<< HEAD
-      image: '/a-cosmetic/products/corps/corps2.png',
-=======
-      image: './products/corps/corps2.png',
->>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
+      image: '/products/corps/corps2.png',
       category: 'body'
     },
     {
@@ -99,11 +79,7 @@ const Products = () => {
       name: 'Savon de soins',
       description: 'Nettoyage en douceur',
       price: '1.500 FCFA',
-<<<<<<< HEAD
-      image: '/a-cosmetic/products/corps/corps3.png',
-=======
-      image: './products/corps/corps3.png',
->>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
+      image: '/products/corps/corps3.png',
       category: 'body'
     },
     {
@@ -111,11 +87,7 @@ const Products = () => {
       name: 'Gel Douche Gommant',
       description: 'Exfoliation douce et efficace',
       price: '3.000 FCFA',
-<<<<<<< HEAD
-      image: '/a-cosmetic/Fond/geldouchegommant.png',
-=======
-      image: './Fond/geldouchegommant.png',
->>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
+      image: '/Fond/geldouchegommant.png',
       category: 'body'
     },
     {
@@ -123,11 +95,7 @@ const Products = () => {
       name: 'Serum de soins',
       description: 'Concentré de soins actifs',
       price: '2.500 FCFA',
-<<<<<<< HEAD
-      image: '/a-cosmetic/products/visage/visage4.png',
-=======
-      image: './products/visage/visage4.png',
->>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
+      image: '/products/visage/visage4.png',
       category: 'face'
     },
     {
@@ -135,11 +103,7 @@ const Products = () => {
       name: 'Gel Ocean',
       description: 'Sensation océanique rafraîchissante',
       price: '3.000 FCFA',
-<<<<<<< HEAD
-      image: '/a-cosmetic/products/corps/#.png',
-=======
-      image: './products/corps/corps3.png',
->>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
+      image: '/products/corps/corps3.png',
       category: 'body'
     }
   ]
