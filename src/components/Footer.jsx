@@ -6,8 +6,13 @@ const Footer = () => {
     {
       title: 'Produits',
       links: [
+<<<<<<< HEAD
         { name: 'Soins du visage', path: '/products#visage' },
         { name: 'Soins du corps', path: '/products#corps' },
+=======
+        { name: 'Soins du visage', path: '/products#face' },
+        { name: 'Soins du corps', path: '/products#body' },
+>>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
       ],
     },
     {
@@ -24,7 +29,11 @@ const Footer = () => {
         { name: 'Contact', path: '/contact' },
       ],
     },
+<<<<<<< HEAD
   ];
+=======
+  ]
+>>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
 
   return (
     <footer className="bg-nivea-dark text-white">
@@ -32,11 +41,16 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Social */}
           <div className="space-y-4">
+<<<<<<< HEAD
             <img src="/a-cosmetic/logo/acos1.png" alt="A-COSMETIC Logo" className="h-12 w-auto" />
+=======
+            <img src="./logo/icone2.png" alt="A-COSMETIC Logo" className="h-12 w-auto" />
+>>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
             <p className="text-gray-300">
               Des soins de la peau de qualité depuis plus de 5 ans.
             </p>
             <div className="flex space-x-4">
+<<<<<<< HEAD
               <a href="https://www.facebook.com/people/A-Cosmetic/61576482712370/" className="text-gray-300 hover:text-white">
                 <FaFacebook size={24} />
               </a>
@@ -44,6 +58,15 @@ const Footer = () => {
                 <FaInstagram size={24} />
               </a>
               <a href="https://www.linkedin.com/company/a-cosmetic/" className="text-gray-300 hover:text-white">
+=======
+              <a href="https://www.facebook.com/profile.php?id=100092003598461" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+                <FaFacebook size={24} />
+              </a>
+              <a href="https://www.instagram.com/acosmetic_sarl/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+                <FaInstagram size={24} />
+              </a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
+>>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
                 <FaLinkedin size={24} />
               </a>
             </div>
@@ -73,7 +96,11 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 text-sm">
+<<<<<<< HEAD
               2024 A-COSMETIC. Tous droits réservés.
+=======
+              © 2024 A-COSMETIC. Tous droits réservés.
+>>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link

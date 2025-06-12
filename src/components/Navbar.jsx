@@ -33,12 +33,24 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
+<<<<<<< HEAD
           <Link to="/" className="flex items-center">
             <img
               src="/a-cosmetic/logo/acos1.png"
               alt="Acos Logo"
               className="h-12 w-auto hidden md:block"
             />
+=======
+          <Link to="/" className="flex items-center">            <img              src="/logo/acos.png"
+              alt="Acos Logo"
+              className="h-12 w-auto hidden md:block"
+            />
+            <img
+              src="./logo/acos.png"
+              alt="Acos Logo"
+              className="h-10 w-auto md:hidden"
+            />
+>>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
           </Link>
 
           {/* Desktop Menu */}
@@ -58,11 +70,15 @@ const Navbar = () => {
           <button
             className="md:hidden text-nivea-dark focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}
+<<<<<<< HEAD
             aria-label={isOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
+=======
+>>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
           >
             {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
         </div>
+<<<<<<< HEAD
 
         {/* Mobile Menu */}
         {isOpen && (
@@ -74,6 +90,20 @@ const Navbar = () => {
             style={{ boxShadow: '0 8px 32px 0 rgba(0,90,156,0.10)' }}
           >
             <div className="flex flex-col space-y-6">
+=======
+      </div>
+
+      {/* Mobile Menu */}
+      {isOpen && (
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          className="fixed inset-x-0 top-20 bg-white shadow-lg md:hidden"
+        >
+          <div className="container mx-auto px-4 py-4">
+            <div className="flex flex-col space-y-4">
+>>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
@@ -85,9 +115,15 @@ const Navbar = () => {
                 </Link>
               ))}
             </div>
+<<<<<<< HEAD
           </motion.div>
         )}
       </div>
+=======
+          </div>
+        </motion.div>
+      )}
+>>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
     </motion.nav>
   )
 }

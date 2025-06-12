@@ -50,6 +50,7 @@ const About = () => {
             <h2 className="text-3xl font-bold mb-6 text-nivea-dark">Notre histoire</h2>
             <p className="text-nivea-dark mb-4">
               Fondée en 2019, notre entreprise a commencé avec une simple crème
+<<<<<<< HEAD
               hydratante qui a révolutionné les soins de la peau. Depuis lors,
               nous n'avons cessé d'innover et de développer de nouveaux produits
               pour répondre aux besoins changeants de nos clients.
@@ -58,6 +59,18 @@ const About = () => {
               Aujourd'hui, nous sommes présents sur tout le territoire ivoirien et continuons
               à nous engager en faveur de la qualité, de l'innovation et du
               développement durable.
+=======
+              hydratante et la vision de rendre les soins de la peau accessibles à
+              tous.
+            </p>
+            <p className="text-nivea-dark mb-4">
+              Au fil des années, nous avons élargi notre gamme tout en maintenant
+              notre engagement envers la qualité et l'innovation.
+            </p>
+            <p className="text-nivea-dark">
+              Aujourd'hui, nous sommes fiers d'être une marque de confiance pour
+              des milliers de familles ivoiriennes.
+>>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
             </p>
           </motion.div>
           <motion.div
@@ -67,9 +80,15 @@ const About = () => {
             className="relative"
           >
             <img
+<<<<<<< HEAD
               src="/history-image.jpg"
               alt="Notre histoire"
               className="rounded-lg shadow-xl"
+=======
+              src="/a-cosmetic/products/visage/visage1.png"
+              alt="Notre histoire"
+              className="rounded-lg shadow-lg"
+>>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
             />
           </motion.div>
         </div>

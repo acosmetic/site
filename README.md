@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HEAD
 # Site Web Nivea Inspired
 
@@ -97,3 +98,6 @@ Ce projet est sous licence MIT.
 
 # Site_vitrine
  01a213bf282a36ce9c34889c5f03f4befa6addeb
+=======
+# site
+>>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041

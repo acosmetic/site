@@ -8,11 +8,19 @@ const Carousel = () => {
   const slides = [
     {
       id: 1,
+<<<<<<< HEAD
       image: '/a-cosmetic/Fond/visage.svg'
     },
     {
       id: 2,
       image: '/a-cosmetic/Fond/corps.svg'
+=======
+      image: './Fond/visage.svg'
+    },
+    {
+      id: 2,
+      image: './Fond/corps.svg'
+>>>>>>> d9679c3a17d90ef7f567d3ee229144b55775a041
     }
   ]
 
